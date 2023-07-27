@@ -83,13 +83,16 @@ Icons: https://lottiefiles.com/muhamadrahsvand
 
 .num-top {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: flex-end;
   background-color: antiquewhite;
   padding: 20px;
 }
 
 .num-top > .num {
   font-size: 12em;
+  line-height: 0.75em; /*lowers whitespace around big text*/
+  /*background-color: cyan;*/
 }
 
 .num-top > .num-text {
