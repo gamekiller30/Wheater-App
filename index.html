@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wheater App</title>
+
+    <!--Font Awesome Icons-->
+    <script
+      src="https://kit.fontawesome.com/9990c5d7cd.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="search-wrapper">
+      <div class="nav">
+        <div class="left">
+          <div class="left-header">WHEATER APP</div>
+        </div>
+
+        <div class="right">
+          <button class="search-btn">Search</button>
+        </div>
+      </div>
+
+      <!--Only Show after clicked-->
+      <div class="search-input-wrapper" style="display: none">
+        <input type="text" id="search" name="search" placeholder="Search" />
+        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+      </div>
+    </div>
+
+    <div class="wheater-wrap">
+      <div class="wheater-box">
+        <div class="wheater-title">
+          <i class="fa-solid fa-location-dot"></i>
+
+          <h3>Location</h3>
+        </div>
+
+        <div class="wheater-num-wrapper">
+          <div class="num-top">
+            <div class="num">22 *</div>
+            <div class="num-text">Rain</div>
+          </div>
+          <div class="num-bottom">
+            <img src="./images/animation_lklhcs16_small.gif" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--
+    <img src="./images/animation_lklhghbh_small.gif" />
+    <img src="./images/animation_lklhh42e_small.gif" />
+    <img src="./images/animation_lklhheyw_small.gif" />
+    <img src="./images/animation_lklhho5x_small.gif" />
+    -->
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: bisque;
+}
+
+/*
+Icons: https://lottiefiles.com/muhamadrahsvand 
+*/
+
+.search-wrapper {
+  position: relative;
+}
+.nav {
+  background-color: rgba(210, 161, 105, 0.4);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+}
+
+.left-header {
+  font-size: 3em;
+}
+
+.right > button {
+  font-size: 2em;
+  padding: 8px 20px;
+}
+
+.right > button:hover {
+  cursor: pointer;
+}
+
+.search-input-wrapper {
+  position: absolute;
+  left: 0;
+  right: 0;
+  font-size: 10px;
+}
+
+.search-input-wrapper > input {
+  width: 100%;
+  padding: 17px 10px;
+  outline: none;
+  font-size: 2em;
+}
+
+.search-input-wrapper > button {
+  padding: 8px 20px;
+  font-size: 2em;
+}
+
+.wheater-box {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  font-size: 10px;
+}
+
+.wheater-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  font-size: 2em;
+}
+
+.wheater-num-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.num-top {
+  display: flex;
+  flex-direction: column;
+  background-color: antiquewhite;
+  padding: 20px;
+}
+
+.num-top > .num {
+  font-size: 12em;
+}
+
+.num-top > .num-text {
+  font-size: 2.5em;
+}
+
+.num-bottom {
+  display: flex;
+  justify-content: center;
+}
+
+.num-bottom > img {
+  width: 200px;
+  height: auto;
+}
+
+.wheater-wrap {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+}
